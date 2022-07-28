@@ -10,7 +10,7 @@ def home():
 def webhook():
     print(request.form)
     print("Got something from facebook")
-    x = request.args.get("hub.challenge"))
+    x = request.args.get("hub.challenge")
     return (x)
 
 
