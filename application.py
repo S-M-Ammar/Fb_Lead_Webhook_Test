@@ -10,7 +10,7 @@ def home():
 def webhook():
     print(request.form)
     print("Got something from facebook")
-    return ("Got request")
+    return ("1445710072")
 
 
 if __name__ == '__main__':
